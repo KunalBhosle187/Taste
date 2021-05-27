@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 55px;
+    text-align: center;
+}
+
+.header .menu > a{
+
+     color: black;
+     text-decoration: none;
+     padding: 5px 15px;
+     border-radius: 30px;
+}
+
+.header .menu > a:hover{
+    box-shadow: gray 0px 0px 5px 1px;
+}
+
+.lf_box > h1{
+     font-size: 54px;
+} 
+
+.lf_box > p{
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+}
+
+.rt_box > img{
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: gainsboro 0px 0px 10px 1px;
+}
+
+.box{
+      box-shadow: gainsboro 100px 150px 150px 30px;
+     border-radius: 30px;
+     padding: 20px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+
+.box a> button{
+    padding: 10px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    left: 15px;
+    position: relative;
+    top: -40px;
+}
+.second_block{
+     padding: 50px 0px;
+}
+.second_block_box{
+    box-shadow: gainsboro 30px 50px 50px 10px;
+    border-right:1px solid gainsboro;
+    border-radius: 30px;
+    height: 330px;
+}
+
+.second_block_box {
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+.second_block_box > button{
+    border-radius: 50%;
+    padding: 5.5%;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.second_block_box > h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.second_block_box > h4{
+    color: gray;
+}
+
+.second_block_rt_box {
+    margin-left: 8px;
+    text-align: justify;
+    
+}
+
+.second_block_rt_box > h1{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.second_block_rt_box > p{
+    margin-left: 20px;
+    color: gray;
+    font-weight: 500;
+    text-align: justify;
+}
+.third_block {
+    padding: 60px 0px;
+    
+}
+.third_block_lt > h1{
+    margin-bottom: 40px;
+}
+
+.third_block_lt> p {
+    color: gray;
+    font-weight: 500;
+}
+.third_block_rt{
+    text-align: center;
+}
+.third_block_rt > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: gainsboro 10px 0px 100px 100px;
+}
+
+hr{
+    box-shadow: gainsboro 1px 0px 10px 1px;
+}
+
+/* footer */
+
+.footer{
+    padding: 50px 0px;
+}
+
+/* Seafood start  */
+.food_section{
+   padding: 50px 0px;
+}
+
+.food_section > h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.food > h2{
+    margin-top: 23px;
+    font-size: larger;
+    padding: 10px 0px;
+    background-color: gainsboro;
+}
+.food{
+    text-align: center;
+    box-shadow: gainsboro 0px 0px 10px 1px;
+    height: 350px;
+    transition: transform .2s;
+}
+
+.food:hover{
+    box-shadow: gray 0px 0px 10px 1px;
+    transform: scale(1.05);
+}
+.food_section .food> img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Seafood End */
+
+/* Contact */
+
+.contact .contact_heading{
+ text-align: center;
+}
+
+.contact_form{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.contact_table{
+    width: 100%;
+    padding: 20px 40px;
+}
+td{
+    padding: 5px; 
+}
+
+.contact_table tr td > input {
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: gainsboro 0px 0px 5px 1px;
+    margin-bottom: 10px;
+}
+
+.contact_table tr td > textarea {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: gainsboro 0px 0px 5px 1px;
+    border: none;
+    padding:20px ;
+}
+.contact_lt{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    box-shadow: gray 0px 0px 10px 1px;
+    height: 436px;
+}
+.contact_rt{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: gray 0px 0px 10px 1px;
+}
+.contact_lt > p{
+    padding: 20px 0px;
+}
+.contact_lt .contact_info > img{
+    width: 24px;
+    height: 24px;
+    padding-right: 15px;
+}
+
+.contact_info{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.table_btn{
+    cursor: pointer;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    transition: transform .2s;
+}
+
+.table_btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.map > iframe{
+    margin-bottom: 30px;
+    border-radius: 20px;
+ box-shadow: gray 0px 0px 10px 1px;
+
+}
+/* Contact end */
+
+/* about start */
+.about_heading{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.heading{
+    font-size: 30px;
+    margin: 20px 0px;
+    padding-left: 30px;
+    box-shadow: gainsboro -100px -100px 100px 10px;
+}
+
+.heading hr{
+    text-align: center;
+    width: 200px;
+}
+
+.subheading{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 24px;
+   border-left:solid  gray;
+   padding-left: 20px;
+  
+}
+
+.paragraph{
+  padding: 20px;
+  box-shadow: gainsboro 100px 100px 100px 10px;
+  color: gray;
+  font-weight: 500;
+}
+
+.about_section{
+    margin-top: 50px;
+    box-shadow: gainsboro 100px 100px 100px 10px;
+    margin-bottom: 50px;
+}
+.about_chef > h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.about_chef > p{
+    color: gray;
+    font-weight: 500;
+}
+/* about end */
